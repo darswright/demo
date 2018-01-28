@@ -19,4 +19,6 @@ web/.htaccess
 vendor/*
 !vendor/.gitkeep
 
+log/
+
 .DS_Store
