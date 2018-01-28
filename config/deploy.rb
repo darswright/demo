@@ -9,7 +9,7 @@ set :repo_url, 'git@github.com:darswright/demo.git'
 # This could be overridden in a stage config file
 set :branch, :master
 
-set :deploy_to, -> { "/srv/users/serverpilot/#{fetch(:application)}/public" }
+set :deploy_to, -> { "/srv/users/serverpilot/apps/#{fetch(:application)}/public" }
 
 # Use :debug for more verbose output when troubleshooting
 set :log_level, :info
